@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS 04</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <h1>Todos</h1>
+        <div class="todo-add-container">
+          <input type="text" id="todoName" placeholder="Nombre de la tarea" />
+          <button id="add">Agregar</button>
+        </div>
+        <div class="count">
+          <p>Total: <span id="total">0</span></p>
+          <p>Realizados: <span id="done">0</span></p>
+        </div>
+        <div class="todos">
+          <div class="header">
+            <div class="item">ID</div>
+            <div class="item">Tarea</div>
+            <div class="item">Acciones</div>
+          </div>
+          <div id="todos">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

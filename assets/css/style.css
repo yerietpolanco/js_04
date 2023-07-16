@@ -1,0 +1,90 @@
+/* import roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+#app {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  min-width: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.todo-add-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+input {
+  height: 50px;
+  font-size: 1.5em;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+#add {
+  box-sizing: border-box;
+  height: 50px;
+  padding: 0 15px;
+  background-color: green;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  font-size: 16px;
+}
+
+#add:hover {
+  cursor: pointer;
+  background-color: darkgreen;
+}
+
+.actions {
+  display: flex;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 800px;
+}
+
+.header {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.row,
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  font-size: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+
+.count {
+  /* font-size: 1.5em; */
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
